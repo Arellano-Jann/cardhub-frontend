@@ -1,0 +1,31 @@
+{
+    "deck_type": "playing_cards",
+    "cards": [
+        {
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "7",
+                    "color": "red",
+                    "small_image": "src/lib/assets/Card_spade.svg",
+                    "image": null
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "card": {
+                "template": "playing_cards",
+                "card_type": "face",
+                "properties": {
+                    "text": "Q",
+                    "color": "red",
+                    "small_image": "hearts.svg",
+                    "image": "red_queen_hearts.svg"
+                }
+            }
+        }
+    ]
+    
+}

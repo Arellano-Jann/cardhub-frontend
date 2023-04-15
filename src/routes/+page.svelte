@@ -1,5 +1,4 @@
 <script>
-    import { goto } from '$app/navigation';
-     
-    console.log(goto);
 </script>
+
+<a href="/home">g</a>

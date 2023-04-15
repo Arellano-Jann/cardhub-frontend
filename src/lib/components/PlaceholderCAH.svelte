@@ -12,9 +12,7 @@
 		<p>{card_obj["card"]["properties"]["text"]}</p>
 	</div>
 	<div class="card-footer">
-		<img src="src/lib/assets/CAH_logo
-		_light.webp" style="height:20px; width:20px; float:left" alt="logo">
-		<p class="logo-text">&nbsp&nbspCards Against Humanity</p>
+		<img src="src/lib/assets/cards_against_humanity/footers/question.svg" style="height:40px; width:80px; float:left" alt="logo">
 	</div>
 </div>
 
