@@ -85,6 +85,9 @@
 	.right-col {
 		position:relative;
 	}
+	.corner-val {
+		margin:0;
+	}
 	.upside-down {
 		position:absolute;
 		bottom:0;
