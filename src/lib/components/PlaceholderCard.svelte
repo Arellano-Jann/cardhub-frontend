@@ -9,6 +9,8 @@
 	
     import PlaceholderCah from "./PlaceholderCAH.svelte";
     import PlaceholderPlayingCards from "./PlaceholderPlayingCards.svelte";
+	import PlaceholderFull from "./PlaceholderFull.svelte";
+
 	import generic_card_obj from "$lib/assets/generic_card.json"
 	export let card_obj = generic_card_obj;
 	
@@ -42,6 +44,8 @@ class="PlaceholderCard"
 		<PlaceholderPlayingCards {card_obj} />
 	{:else if card_obj["card"]["template"] == "cards_against_humanity"}
 		<PlaceholderCah {card_obj} />
+	{:else if card_obj["card"]["template"] == "full-image"}
+		<PlaceholderFull {card_obj} />
 	{:else}
 		<p>in else</p>
 	{/if}
