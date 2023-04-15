@@ -1,19 +1,40 @@
 <script>
+    import Home from "../../routes/home/+page.svelte";   //Idk if these are right
+    import HostJoin from "../../routes/hostjoin/+page.svelte"; 
+    import Search from "../../routes/search/+page.svelte"; 
+    import About from "../../routes/about/+page.svelte"; 
+
+    let currentPage = Home;
+    function setCurrentPage(page){
+        currentPage = page;
+    }
 </script>
 
 <nav>
-    <ul>
-        <li>
-            <a href="/">Host</a>
+    <ul class="section-links">
+        <li class="section-link" on:click={() => setCurrentPage(Home)} class:selected={currentPage == Home}>
+            <a href={Home}>
+                <span class="material-icons">home</span>
+                Home
+            </a>
         </li>
-        <li>
-            <a href="/join">Join</a>
+        <li class="section-link" on:click={() => setCurrentPage(Host/Join)} class:selected={currentPage == Host/Join}>
+            <a href={HostJoin}>
+                <span class="material-icons">person_add</span>
+                Host/Join
+            </a>
         </li>
-        <li>
-            <a href="/search">Search</a>
+        <li class="section-link" on:click={() => setCurrentPage(Search)} class:selected={currentPage == Search}>
+            <a href={Search}>
+                <span class="material-icons">search</span>
+                Search
+            </a>
         </li>
-        <li>
-            <a href="/about">About</a>
+        <li class="section-link" on:click={() => setCurrentPage(About)} class:selected={currentPage == About}>
+            <a href={About}>
+                <span class="material-icons">info</span>
+                About
+            </a>
         </li>
     </ul>
 </nav>
