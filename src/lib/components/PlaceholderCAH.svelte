@@ -13,7 +13,7 @@
 	</div>
 	<div class="card-footer">
 		<img src="src/lib/assets/CAH_logo
-		_light.webp" style="height:20px; width:20px; float:left">
+		_light.webp" style="height:20px; width:20px; float:left" alt="logo">
 		<p class="logo-text">&nbsp&nbspCards Against Humanity</p>
 	</div>
 </div>

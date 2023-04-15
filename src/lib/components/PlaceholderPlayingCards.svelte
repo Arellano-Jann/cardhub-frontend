@@ -14,7 +14,7 @@
 			<img src={card_obj["card"]["properties"]["small_image"]} alt="small">
 		</div>
 	</div>
-	<div class="centerdiv"> <!-- center image-->
+	<div class="centerdiv bg-red-100"> <!-- center image-->
 		<img src={card_obj["card"]["properties"]["image"]} alt="center">
 	</div>
 	<div class="right-col col"> <!-- right stuff -->

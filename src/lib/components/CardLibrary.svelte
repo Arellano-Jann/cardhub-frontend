@@ -14,7 +14,7 @@
     <div class="flex flex-col">
         {#each dummyCards as card}
             <!-- add dynamic route later -->
-            <a href="#">
+            <a href="google.com">
                 <div
                     class="border-black border-2 p-2 m-2
             flex flex-row justify-between align-middle"
