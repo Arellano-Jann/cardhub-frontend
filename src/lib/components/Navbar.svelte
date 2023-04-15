@@ -1,14 +1,14 @@
 <script>
     //import Home from "../../routes/home/+page.svelte";   //Idk if these are right
-    //import HostJoin from "../../routes/hostjoin/+page.svelte"; 
-    //import Search from "../../routes/search/+page.svelte"; 
-    //import About from "../../routes/about/+page.svelte"; 
+    //import HostJoin from "../../routes/hostjoin/+page.svelte";
+    //import Search from "../../routes/search/+page.svelte";
+    //import About from "../../routes/about/+page.svelte";
     let Home = "https://www.google.com/";
     let HostJoin = "https://www.amazon.com/";
     let Search = "https://www.yahoo.com/";
     let About = "https://www.espn.com/";
     let currentPage = Home;
-    function setCurrentPage(page){
+    function setCurrentPage(page) {
         currentPage = page;
     }
 </script>
@@ -16,33 +16,53 @@
 <nav>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <ul class="section-links">
-      <li class="section-link" on:click={() => setCurrentPage(Home)} on:keypress={() => setCurrentPage(Home)} class:selected={currentPage == Home}>
-        <a href={Home}>
-          <span class="material-icons">home</span>
-          Home
-        </a>
-      </li>
-      <li class="section-link" on:click={() => setCurrentPage(HostJoin)} on:keypress={() => setCurrentPage(HostJoin)} class:selected={currentPage == HostJoin}>
-        <a href={HostJoin}>
-          <span class="material-icons">person_add</span>
-          Host/Join
-        </a>
-      </li>
-      <li class="section-link" on:click={() => setCurrentPage(Search)} on:keypress={() => setCurrentPage(Search)} class:selected={currentPage == Search}>
-        <a href="{Search}">
-          <span class="material-icons">search</span>
-          Search
-        </a>
-      </li>
-      <li class="section-link" on:click={() => setCurrentPage(About)} on:keypress={() => setCurrentPage(About)} class:selected={currentPage == About}>
-        <a href="{About}">
-          <span class="material-icons">info</span>
-          About
-        </a>
-      </li>
+        <li
+            class="section-link"
+            on:click={() => setCurrentPage(Home)}
+            on:keypress={() => setCurrentPage(Home)}
+            class:selected={currentPage == Home}
+        >
+            <a href={Home}>
+                <span class="material-icons">home</span>
+                Home
+            </a>
+        </li>
+        <li
+            class="section-link"
+            on:click={() => setCurrentPage(HostJoin)}
+            on:keypress={() => setCurrentPage(HostJoin)}
+            class:selected={currentPage == HostJoin}
+        >
+            <a href={HostJoin}>
+                <span class="material-icons">person_add</span>
+                Host/Join
+            </a>
+        </li>
+        <li
+            class="section-link"
+            on:click={() => setCurrentPage(Search)}
+            on:keypress={() => setCurrentPage(Search)}
+            class:selected={currentPage == Search}
+        >
+            <a href={Search}>
+                <span class="material-icons">search</span>
+                Search
+            </a>
+        </li>
+        <li
+            class="section-link"
+            on:click={() => setCurrentPage(About)}
+            on:keypress={() => setCurrentPage(About)}
+            class:selected={currentPage == About}
+        >
+            <a href={About}>
+                <span class="material-icons">info</span>
+                About
+            </a>
+        </li>
     </ul>
-  </nav>  
-  
+</nav>
+
 <style lang="css">
    nav {
     position: fixed;
