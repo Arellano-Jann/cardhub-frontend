@@ -6,10 +6,6 @@
 	onMount(async () => {
 		data = await get();
 	});*/
-	import logo from "$lib/assets/logo.svg"
-	import data from "$lib/assets/lyssie-test-uno.json"
-	import img from "$lib/assets/uno-red-zero-screenshot.png"
-	
 	
     import PlaceholderCah from "./PlaceholderCAH.svelte";
     import PlaceholderPlayingCards from "./PlaceholderPlayingCards.svelte";
