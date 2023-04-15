@@ -1,9 +1,9 @@
 {
-	"template_name": "lyssie-test-uno 3",
-	"card-id": 0,
-	"card-color": "red",
-	"card-number": 5,
-	"card-special": null,
-	
-	"card-dimensions": [80, 120]
+	"template_name": "lyssie-test-uno",
+	"id": 0,
+	"color": "red",
+	"number": 5,
+	"special": null,
+	"src": null,
+	"dimensions": [80, 120]
 }
