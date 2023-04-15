@@ -1,7 +1,7 @@
 <script>
     import { initializeApp } from "firebase/app";
     import { getFirestore } from "firebase/firestore";
-    import { getStorage } from "firebase/storage";
+    import { getStorage, ref, uploadBytes } from "firebase/storage";
 
     const firebaseConfig = {
         apiKey: "AIzaSyDmxG4o79Bvz8IfVJo2rKXIxMcV-08KCAQ",
@@ -18,5 +18,14 @@
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
     const storage = getStorage(app);
+    const storageRef = ref(storage, 'test');
+
+
+    file = new File(["Hello, world!"], "hello.txt", {
+        type: "text/plain",
+    });
+    uploadBytes(storageRef, file).then((snapshot) => {
+        console.log('Uploaded a file');
+    });
 
 </script>
