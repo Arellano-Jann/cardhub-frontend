@@ -17,4 +17,7 @@
 </div>
 
 <h1> Card Library </h1>
-<!--<LyssieCardLibrary card_obj={[cah_cards[0]]} />-->
+<LyssieCardLibrary cards={cah_cards} />
+{#each {length: 3} as _, i}
+    <li>{i + 1}</li>
+{/each}

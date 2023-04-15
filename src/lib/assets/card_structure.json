@@ -16,10 +16,13 @@
                 },
                 {
                     "card": {
+                        "template": "cards_against_humanity",
                         "type": "answer",
                         "properties": {
                             "text": "COVID-19."
                         }
+                        ,
+                        "dimensions": [127, 176]
                     }
                 },
                 {
