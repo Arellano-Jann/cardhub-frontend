@@ -1,0 +1,97 @@
+{
+    "decks": [
+        {
+            "deck_type": "cards_against_humanity",
+            "cards": [
+                {
+                    "card": {
+                        "type": "question",
+                        "properties": {
+                            "text": "TSA guidelines now prohibit _ on airplanes."
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "type": "answer",
+                        "properties": {
+                            "text": "COVID-19."
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "type": "answer",
+                        "properties": {
+                            "text": "Doing crimes."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "deck_type": "playing_cards",
+            "cards": [
+                {
+                    "card": {
+                        "type": "number",
+                        "properties": {
+                            "text": "7",
+                            "color": "red",
+                            "small_image": "hearts.svg",
+                            "image": "seven_hearts.svg"
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "type": "face",
+                        "properties": {
+                            "text": "Q",
+                            "color": "red",
+                            "small_image": "hearts.svg",
+                            "image": "red_queen_hearts.svg"
+                        }
+                    }
+                }
+            ]
+            
+        },
+        
+        {
+            "deck_type": "uno",
+            "cards": [
+                {
+                    "card": {
+                        "type": "number",
+                        "properties": {
+                            "text": "7",
+                            "color": "red"
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "type": "hybrid",
+                        "properties": {
+                            "text": "+4",
+                            "color": "green",
+                            "image": "plus_four.svg"
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "type": "special",
+                        "properties": {
+                            "color": "blue",
+                            "image": "reverse.svg"
+                        }
+                    }
+                }
+            ]
+            
+        }
+    ]
+}
