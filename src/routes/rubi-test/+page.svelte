@@ -2,7 +2,7 @@
     // adds file to storage bucket
     import { initializeApp } from "firebase/app";
     import { getFirestore, collection, addDoc, doc, onSnapshot } from "firebase/firestore";
-    // import { getStorage, ref, uploadBytes } from "firebase/storage";
+    import { getStorage, ref, uploadBytes } from "firebase/storage";
 
     const firebaseConfig = {
         apiKey: "AIzaSyDmxG4o79Bvz8IfVJo2rKXIxMcV-08KCAQ",
@@ -16,9 +16,9 @@
 
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
-    // const storage = getStorage(app);
-    // const storageRef = ref(storage);
-    const collectionRef = collection(db, 'cardhub-backend/decks');
+    const storage = getStorage(app);
+    const storageRef = ref(storage);
+    const collectionRef = collection(db, 'cardhub-backend/card');
 
     // let photo;
 
@@ -59,11 +59,11 @@
 </form>
 
 <ul>
-    <!-- {#each cards as card}
+    {#each cards as card}
         <li>
             <h3>{card.name}</h3>
             <p>{card.description}</p>
             <button on:click={() => onDelete(card.id)}>Delete</button>
         </li>
-    {/each} -->
+    {/each}
 </ul>
