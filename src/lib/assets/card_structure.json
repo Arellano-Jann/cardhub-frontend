@@ -5,10 +5,13 @@
             "cards": [
                 {
                     "card": {
+                        "template": "cards_against_humanity",
                         "type": "question",
                         "properties": {
-                            "text": "TSA guidelines now prohibit _ on airplanes."
-                        }
+                            "text": "TSA guidelines now prohibit _________ on airplanes."
+                        
+                        },
+                        "dimensions": [127, 176]
                     }
                 },
                 {
@@ -35,17 +38,20 @@
             "cards": [
                 {
                     "card": {
+                        "template": "playing_cards",
                         "type": "number",
                         "properties": {
                             "text": "7",
                             "color": "red",
-                            "small_image": "hearts.svg",
-                            "image": "seven_hearts.svg"
-                        }
+                            "small_image": "src/lib/assets/Card_spade.svg",
+	"image": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2FiYjMyM2JkZjQ4NmUyYjI2NzMyYTIwYmY0YTdkZTAzZjc3MDIwYiZjdD1n/Ju7l5y9osyymQ/giphy.gif"
+                        },
+                        "dimensions": [125, 175]
                     }
                 },
                 {
                     "card": {
+                        "template": "playing_cards",
                         "type": "face",
                         "properties": {
                             "text": "Q",
