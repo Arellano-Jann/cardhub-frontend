@@ -1,11 +1,5 @@
 <script>
-    // your script goes here
+    import Carousel from "../../lib/components/Carousel.svelte";
 </script>
 
-<ul>
-
-</ul>
-
-<nav>
-    
-</nav>
+<Carousel/>
