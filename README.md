@@ -1,4 +1,4 @@
-# create-svelte
+<!--# create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
@@ -31,8 +31,15 @@ To create a production version of your app:
 
 ```bash
 npm run build
-```
+```-->
 
-You can preview the production build with `npm run preview`.
+<!--You can preview the production build with `npm run preview`.-->
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+<!--> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.-->
+
+
+# README - CardHub
+
+## Developer file notes
+lyssie-test-uno.json:
+`card-id`: specific to each card.
