@@ -4,12 +4,12 @@
         {
             "card": {
                 "template": "playing_cards",
-                "type": "number",
+                "card_type": "number",
                 "properties": {
                     "text": "7",
                     "color": "red",
                     "small_image": "src/lib/assets/Card_spade.svg",
-"image": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2FiYjMyM2JkZjQ4NmUyYjI2NzMyYTIwYmY0YTdkZTAzZjc3MDIwYiZjdD1n/Ju7l5y9osyymQ/giphy.gif"
+                    "image": null
                 },
                 "dimensions": [125, 175]
             }
@@ -17,7 +17,7 @@
         {
             "card": {
                 "template": "playing_cards",
-                "type": "face",
+                "card_type": "face",
                 "properties": {
                     "text": "Q",
                     "color": "red",
