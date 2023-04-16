@@ -10,27 +10,50 @@
 </script>
 
 <nav>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+    />
     <ul class="section-links">
-        <li class="section-link" on:click={() => setCurrentPage(Home)} on:keypress={() => setCurrentPage(Home)} class:selected={currentPage == Home}>
+        <li
+            class="section-link"
+            on:click={() => setCurrentPage(Home)}
+            on:keypress={() => setCurrentPage(Home)}
+            class:selected={currentPage == Home}
+        >
             <a href={Home}>
                 <span class="material-icons">home</span>
                 Home
             </a>
         </li>
-        <li class="section-link" on:click={() => setCurrentPage(HostJoin)} on:keypress={() => setCurrentPage(HostJoin)} class:selected={currentPage == HostJoin}>
+        <li
+            class="section-link"
+            on:click={() => setCurrentPage(HostJoin)}
+            on:keypress={() => setCurrentPage(HostJoin)}
+            class:selected={currentPage == HostJoin}
+        >
             <a href={HostJoin}>
                 <span class="material-icons">person_add</span>
                 Host/Join
             </a>
         </li>
-        <li class="section-link" on:click={() => setCurrentPage(Search)} on:keypress={() => setCurrentPage(Search)} class:selected={currentPage == Search}>
+        <li
+            class="section-link"
+            on:click={() => setCurrentPage(Search)}
+            on:keypress={() => setCurrentPage(Search)}
+            class:selected={currentPage == Search}
+        >
             <a href={Search}>
                 <span class="material-icons">search</span>
                 Search
             </a>
         </li>
-        <li class="section-link" on:click={() => setCurrentPage(About)} on:keypress={() => setCurrentPage(About)} class:selected={currentPage == About}>
+        <li
+            class="section-link"
+            on:click={() => setCurrentPage(About)}
+            on:keypress={() => setCurrentPage(About)}
+            class:selected={currentPage == About}
+        >
             <a href={About}>
                 <span class="material-icons">info</span>
                 About
@@ -40,8 +63,8 @@
 </nav>
 
 <style lang="css">
-   nav {
-        position: fixed;
+    nav {
+        /* position: fixed; */
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -92,25 +115,25 @@
     .section-link a .material-icons {
         font-size: 25px;
     }
-    
+
     @media screen and (min-width: 768px) {
-      nav {
-        top: 0;
-        bottom: auto;
-      }
-      .section-links {
-        height: 50px;
-      }
+        nav {
+            top: 0;
+            bottom: auto;
+        }
+        .section-links {
+            height: 50px;
+        }
     }
 
     @media screen and (max-width: 767px) {
-      nav {
-        top: auto;
-        bottom: 0;
-      }
-      .section-links {
-        flex-direction: column;
-        height: auto;
-      }
+        nav {
+            top: auto;
+            bottom: 0;
+        }
+        .section-links {
+            flex-direction: column;
+            height: auto;
+        }
     }
 </style>

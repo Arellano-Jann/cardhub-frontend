@@ -19,7 +19,6 @@
 </script>
 
 <div>
-    <h1>Lobbies</h1>
     {#if dummyLobbies.length == 0}
         <div class="grid grid-cols-3 grid-rows-3">
             <div class="row-start-2 col-start-2 text-center">
@@ -28,8 +27,8 @@
         </div>
     {:else}
         <div class="max-w-lg mx-auto">
-            <div>
-                <p>Lobby Name</p>
+            <div class="p-2">
+                <p>Lobbies</p>
             </div>
             <div class="border-black border-2 p-5">
                 {#each dummyLobbies as lobby}

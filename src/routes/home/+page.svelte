@@ -4,7 +4,9 @@
 
 <!--<Navbar />-->
 <div class="home-content grid grid-cols-3 grid-rows-3">
-  <div class="col-start-2 row-start-2 border-2 border-black p-5 max-w-sm">
+  <div
+    class="col-start-2 row-start-2 border-2 border-[var(--white)] p-5 max-w-sm"
+  >
     <form method="POST">
       <div class="py-5 flex justify-between">
         <button>Host Game</button>
@@ -20,7 +22,7 @@
       </div>
       <div class="flex flex-row-reverse">
         <button
-          class="hover:bg-black hover:text-white py-2 px-5 border-2 border-black"
+          class="hover:bg-black hover:text-white py-2 px-5 border-2 border-[var(--white)]"
           >Join</button
         >
       </div>
