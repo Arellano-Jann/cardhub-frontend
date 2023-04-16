@@ -3,7 +3,8 @@
 	import DeckView from "$lib/components/DeckView.svelte"
 	import CardLibrary from "$lib/components/CardLibrary.svelte"
 	import Navbar from "../../lib/components/Navbar.svelte";
-	$: selected_cards = 5 + 10;
+	import cah_deck_obj from "$lib/assets/cards_against_humanity/deck.json"
+	import playing_card_deck_obj from "$lib/assets/playing_cards/deck.json"
 
 </script>
 <!--<Navbar />-->
@@ -11,7 +12,7 @@
 <h2> Select Game to Play </h2>
 <DeckView />
 <h2> View Cards in Deck </h2>
-<CardLibrary {selected_cards} />
+<CardLibrary deck_obj={playing_card_deck_obj} />
 
 
 <style>
