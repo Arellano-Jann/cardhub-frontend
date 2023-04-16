@@ -26,22 +26,19 @@
           <input
             class="border-2 border-white text-black"
             name="room-num"
-            type="text"
-          />
+            type="text"/>
         </div>
         <div class="flex justify-between py-2">
           <label for="display-name text-black"> Display Name </label>
           <input
             class="border-2 border-white text-black"
             name="display-name"
-            type="text"
-          />
+            type="text"/>
         </div>
         <div class="flex flex-row-reverse">
           <button
             class="hover:bg-black hover:text-white py-2 px-5 border-2 border-white text-white"
-            >Join</button
-          >
+            >Join</button>
         </div>
       </form>
     </div>

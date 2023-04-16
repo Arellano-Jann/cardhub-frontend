@@ -16,9 +16,37 @@
     //         name: "gasdgasdg",
     //     },
     // ];
+    import logo from "../../lib/assets/card_hub_logo.svg";
 </script>
 
 <main> 
+    <div style="text-align: center;">
+
+        <img src={logo} alt="Card Hub Logo" style="display:inline" width="500"/>
+        
+    </div>
+    
+    <form method="POST">
+        <div class="flex justify-between py-2">
+          <label for="room-num"> Join Room </label>
+          <input
+            class="border-2 border-white text-black"
+            name="room-num"
+            type="text"/>
+        </div>
+        <div class="flex justify-between py-2">
+          <label for="display-name text-black"> Display Name </label>
+          <input
+            class="border-2 border-white text-black"
+            name="display-name"
+            type="text"/>
+        </div>
+        <div class="flex flex-row-reverse">
+          <button
+            class="hover:bg-black hover:text-white py-2 px-5 border-2 border-white text-white"
+            >Join</button>
+        </div>
+      </form>
     <!-- <div> -->
     <!-- <h1>Lobbies</h1>
     {#if dummyLobbies.length == 0}
@@ -52,11 +80,18 @@
     </div> -->
 </main>
 
-<!-- <style>
+<style>
     main{
         text-align: center;
+        align-items: center;
+        align-self: center;
+        align-content: center;
     }
-    h1{
+    form{
+        align-items: center;
+    }
+
+    /* h1{
         text-decoration: left;
-    }
-</style> -->
+    } */
+</style>
