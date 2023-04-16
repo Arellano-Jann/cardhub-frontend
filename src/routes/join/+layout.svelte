@@ -8,6 +8,6 @@
         /* max-height: 0cqmax; */
         margin: auto;
         background-color: #1e1e1e;
-        
+        justify-content: center;
     }
 </style>

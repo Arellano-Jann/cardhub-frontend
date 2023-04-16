@@ -1,13 +1,32 @@
 <script>
+	// import logo from "../../lib/assets/card_hub_logo.svg";
 </script>
 
 <!-- <a href="/home">g</a> -->
-<div style="text-align: center">
+<!-- <div>
+	<div style="text-align: center;">
 
-	<h1>Welcome to Card Hub!</h1>
-	<!-- <img width="300px" src="https://www.hubspot.com/hubfs/image-hubspot-centering-css.jpeg" style="display:inline" alt="yeyeye"> -->
-	
-</div>
+		<img src={logo} alt="Card Hub Logo" style="display:inline" width="200"/>
+		
+	</div>
+</div> -->
+<main>	
+	<div class="flex flex-col items-center gap-5"> 
+		<h1>Welcome to Card Hub!</h1>
+		<div class="flex flex-col items-center gap-5">
+			<button
+			class="w-75 py-2 px-4 border-transparent rounded-md shadown-sm test-sm font-medium text-black bg-red-400 hover:bg-red-500 hover:text-white py-2 px-5 border-2 border-black rounded-lg justify-center"
+			>Host a Game</button>
+
+			<button
+			class="w-75 justify-center py-2 px-4 border-transparent rounded-md shadown-sm test-sm font-medium text-black bg-red-400 hover:bg-red-500 hover:text-white py-2 px-5 border-2 border-black rounded-lg"
+			>Join a Game</button>
+		</div>
+		
+	</div>
+
+</main>
+
 
 <style>
   
@@ -16,6 +35,12 @@
 	  font-size: 4em;
 	  font-weight: 100;
 	  text-align: center;
+	}
+
+	main {
+		/* display: flex; */
+		justify-content: center;
+		align-items: center;
 	}
   
   

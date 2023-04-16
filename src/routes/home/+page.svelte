@@ -1,15 +1,26 @@
 <script>
   // import Navbar from "../../lib/components/Navbar.svelte";
-  // import logo from "../../lib/assets/card_hub_logo.svg";
+  import logo from "../../lib/assets/card_hub_logo.svg";
   // import "@fontsource/open-sans";
 </script>
 
 
 <main>
   <!-- <img src={logo} alt="Card Hub Logo" width="200" /> -->
+  
+  <div class="flex flex-col items-center gap-5"> 
+		<h1>Welcome to Card Hub!</h1>
+		<div class="flex flex-col items-center gap-5">
+			<button
+			class="w-75 py-2 px-4 border-transparent rounded-md shadown-sm test-sm font-medium text-black bg-red-400 hover:bg-red-500 hover:text-white py-2 px-5 border-2 border-black rounded-lg justify-center"
+			>Host a Game</button>
 
-  <h1>Welcome to Card Hub!</h1>
-  <!-- <p>Home page content</p> -->
+			<button
+			class="w-75 justify-center py-2 px-4 border-transparent rounded-md shadown-sm test-sm font-medium text-black bg-red-400 hover:bg-red-500 hover:text-white py-2 px-5 border-2 border-black rounded-lg"
+			>Join a Game</button>
+		</div>
+		
+	</div>
 
 </main>
 <!--<Navbar />-->

@@ -38,12 +38,13 @@
                                 id="room-num"
                                 name="room-num"
                                 type="text"
-                                placeholder="Enter Room Number"
+                                placeholder="Room Number"
                                 autocomplete="room-num"
                                 align="center"
                                 required
                                 class="appearance-none num block w-full px-3 py-2 border border-gray-300 roundedd shadow-sm placeholder-gra-my-400 focus:outline-none focus:ring-black focus:border-black sm:text-sm text-black rounded-lg shadow-sm focus:outline-none focus:border-red-300 focus:ring focus:ring-red-200"
                             />
+                            <label for="room-num" class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2"> Room Number </label>
                         </div>
                     </div>
 
@@ -137,6 +138,7 @@
         align-self: center;
         align-content: center;
         background-color: #1e1e1e;
+        justify-content: center;
     }   
 
     .num {
