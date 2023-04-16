@@ -10,9 +10,17 @@
 </script>
 
 <nav>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+    />
     <ul class="section-links">
-        <li class="section-link" on:click={() => setCurrentPage(Home)} on:keypress={() => setCurrentPage(Home)} class:selected={currentPage == Home}>
+        <li
+            class="section-link"
+            on:click={() => setCurrentPage(Home)}
+            on:keypress={() => setCurrentPage(Home)}
+            class:selected={currentPage == Home}
+        >
             <a href={Home}>
                 <svg width="100" height="100" viewBox="0 0 2057 1122" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M188.433 425.277L25.541 543.626C-1.26751 563.103 -7.21038 600.625 12.267 627.434L353.182 1096.66C372.66 1123.47 410.182 1129.41 436.991 1109.94L744.417 886.579C765.632 871.166 773.78 844.453 766.605 820.691L445.448 925.041C398.175 940.401 347.401 914.53 332.041 867.257L188.433 425.277Z" fill="#7C7C7C"/>
@@ -30,19 +38,34 @@
                 Home
             </a>
         </li>
-        <li class="section-link" on:click={() => setCurrentPage(HostJoin)} on:keypress={() => setCurrentPage(HostJoin)} class:selected={currentPage == HostJoin}>
+        <li
+            class="section-link"
+            on:click={() => setCurrentPage(HostJoin)}
+            on:keypress={() => setCurrentPage(HostJoin)}
+            class:selected={currentPage == HostJoin}
+        >
             <a href={HostJoin}>
                 <span class="material-icons">person_add</span>
                 Host/Join
             </a>
         </li>
-        <li class="section-link" on:click={() => setCurrentPage(Search)} on:keypress={() => setCurrentPage(Search)} class:selected={currentPage == Search}>
+        <li
+            class="section-link"
+            on:click={() => setCurrentPage(Search)}
+            on:keypress={() => setCurrentPage(Search)}
+            class:selected={currentPage == Search}
+        >
             <a href={Search}>
                 <span class="material-icons">search</span>
                 Search
             </a>
         </li>
-        <li class="section-link" on:click={() => setCurrentPage(About)} on:keypress={() => setCurrentPage(About)} class:selected={currentPage == About}>
+        <li
+            class="section-link"
+            on:click={() => setCurrentPage(About)}
+            on:keypress={() => setCurrentPage(About)}
+            class:selected={currentPage == About}
+        >
             <a href={About}>
                 <span class="material-icons">info</span>
                 About
@@ -52,8 +75,8 @@
 </nav>
 
 <style lang="css">
-   nav {
-        position: fixed;
+    nav {
+        /* position: fixed; */
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -104,25 +127,25 @@
     .section-link a .material-icons {
         font-size: 25px;
     }
-    
+
     @media screen and (min-width: 768px) {
-      nav {
-        top: 0;
-        bottom: auto;
-      }
-      .section-links {
-        height: 50px;
-      }
+        nav {
+            top: 0;
+            bottom: auto;
+        }
+        .section-links {
+            height: 50px;
+        }
     }
 
     @media screen and (max-width: 767px) {
-      nav {
-        top: auto;
-        bottom: 0;
-      }
-      .section-links {
-        flex-direction: column;
-        height: auto;
-      }
+        nav {
+            top: auto;
+            bottom: 0;
+        }
+        .section-links {
+            flex-direction: column;
+            height: auto;
+        }
     }
 </style>

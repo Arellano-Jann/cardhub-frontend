@@ -25,7 +25,6 @@
   
     register();
   
-    const spaceBetween = 10;
     const onProgress = (e) => {
       const [swiper, progress] = e.detail;
       console.log(progress)

@@ -1,5 +1,14 @@
 {
     "deck_type": "cards_against_humanity",
+    "back_card": {
+        "card": {
+            "template": "full-image",
+            "properties": {
+                "image": "src/lib/assets/cards_against_humanity/footers/answer.svg"
+            },
+            "dimensions": [127, 176]
+        }
+    },
     "cards": [
         {
             "card": {

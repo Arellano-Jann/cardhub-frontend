@@ -19,7 +19,8 @@
 <div class="p-2 m-2">
     <div class="">
         <button on:click={() => (isListview = !isListview)}>
-            {isListview ? "Card View" : "List View"}
+            <!-- {isListview ? "Card View" : "List View"} -->
+            Toggle View
         </button>
     </div>
     {#if isListview}
