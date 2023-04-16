@@ -2,7 +2,7 @@
     "deck_type": "playing_cards",
     "display-properties": {
         "name": "52-Card Deck",
-        "description": "A standard deck of playing cards. Used to play a variety of games such as Poker, Blackjack, Solitaire, and Go Fish."
+        "description": "A standard deck of playing cards used to play many games such as poker and solitaire."
     },
     "back_card": {
         "card": {

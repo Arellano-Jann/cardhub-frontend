@@ -1,5 +1,9 @@
 {
     "deck_type": "cards_against_humanity",
+    "display-properties": {
+        "name": "Cards Against Humanity",
+        "description": "A popular text-based card game consisting of prompt and answer cards."
+    },
     "back_card": {
         "card": {
             "template": "full-image",
