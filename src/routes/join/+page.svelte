@@ -17,6 +17,13 @@
     //     },
     // ];
     import logo from "../../lib/assets/card_hub_logo.svg";
+    function moveRoom(){
+        window.location.href = "/room1";
+        var storeRoom = document.getElementById("room-num").value;
+        var storeName = document.getElementById("display-name").value;
+        localStorage.setItem("room-num", storeRoom);
+        localStorage.setItem("display-name", storeName);
+    }
 </script>
 
 <main> 
@@ -50,7 +57,7 @@
                     </div>
 
                     <div class="flex flex-row-reverse">
-                        <button
+                        <button on:click={moveRoom}
                         class="w-full justify-center py-2 px-4 border-transparent rounded-md shadown-sm test-sm font-medium text-black bg-red-400 hover:bg-red-500 hover:text-white py-2 px-5 border-2 border-black rounded-lg"
                         >Join</button>
                     </div>
