@@ -1,6 +1,9 @@
 <div class="center-page-layout">
     <slot />
 </div>
+<form method="POST" action="/join">
+    <!-- {moveRoom} -->
+</form>
 
 <style>
     .center-page-layout {

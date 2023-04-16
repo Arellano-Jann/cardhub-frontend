@@ -17,6 +17,13 @@
     //     },
     // ];
     import logo from "../../lib/assets/card_hub_logo.svg";
+    function moveRoom(){
+        var storeRoom = document.getElementById("room-num").value;
+        var storeName = document.getElementById("display-name").value;
+        localStorage.setItem("room-num", storeRoom);
+        localStorage.setItem("display-name", storeName);
+        window.location.href = "/room1";
+    }
 </script>
 
 <main> 
@@ -33,40 +40,24 @@
                         <!-- <label for="room-num" class="block text-sm font-medium font-medium text-gray-700">
                             Room Number
                         </label> -->
-                        <div class="mt-1">
-                            <input
-                                id="room-num"
-                                name="room-num"
-                                type="text"
-                                placeholder="Room Number"
-                                autocomplete="room-num"
-                                align="center"
-                                required
-                                class="appearance-none num block w-full px-3 py-2 border border-gray-300 roundedd shadow-sm placeholder-gra-my-400 focus:outline-none focus:ring-black focus:border-black sm:text-sm text-black rounded-lg shadow-sm focus:outline-none focus:border-red-300 focus:ring focus:ring-red-200"
-                            />
-                            <label for="room-num" class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2"> Room Number </label>
-                        </div>
+                        <div class="mt-10 relative">
+                            <input id="room-num" type="room-num" name="room-num" class="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-red-600" placeholder="room-num" />
+                            <label for="room-num" class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Room Number</label>
+                          </div>
                     </div>
 
                     <div> 
                         <!-- <label for="display-name" class="block text-sm font-medium font-medium text-gray-700">
                             Display Name
                         </label> -->
-                        <div class="mt-1">
-                            <input
-                                id="display-name"
-                                name="display-name"
-                                type="text"
-                                autocomplete="display-name"
-                                placeholder="Enter Display Name"
-                                required
-                                class="appearance-none num block w-full px-3 py-2 border border-gray-300 roundedd shadow-sm placeholder-gra-my-400 focus:outline-none focus:ring-black focus:border-black sm:text-sm text-black rounded-lg shadow-sm focus:outline-none focus:border-red-300 focus:ring focus:ring-red-200"
-                            />
-                        </div>
+                        <div class="mt-10 relative">
+                            <input id="display-name" type="display-name" name="display-name" class="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-red-600" placeholder="display-name" />
+                            <label for="display-name" class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Display Name</label>
+                          </div>
                     </div>
 
                     <div class="flex flex-row-reverse">
-                        <button
+                        <button on:submit={moveRoom}
                         class="w-full justify-center py-2 px-4 border-transparent rounded-md shadown-sm test-sm font-medium text-black bg-red-400 hover:bg-red-500 hover:text-white py-2 px-5 border-2 border-black rounded-lg"
                         >Join</button>
                     </div>
@@ -140,12 +131,12 @@
         background-color: #1e1e1e;
         justify-content: center;
     }   
-
+/* 
     .num {
         text-align: center;
         align-items: center;
         align-self: center;
         align-content: center;
-    }
+    } */
     
 </style>
