@@ -1,9 +1,9 @@
 <script>
-    import Home from "../../routes/home/+page.svelte";
-    import Host from "../../routes/host/+page.svelte";
-    import Join from "../../routes/lobby/+page.svelte";
-    import Search from "../../routes/play/+page.svelte";
-    import About from "../../routes/about/+page.svelte";
+    let Home = "../../routes/home/+page.svelte";
+    let Host = "../../routes/host/+page.svelte";
+    let Join = "../../routes/lobby/+page.svelte";
+    let Search = "../../routes/play/+page.svelte";
+    let About = "../../routes/about/+page.svelte";
    
     let currentPage = Home;
     function setCurrentPage(page) {
