@@ -6,11 +6,19 @@
 	//CAH
 	import cards_against_humanity_deck from "$lib/assets/cards_against_humanity/deck.json"
 	let cards_against_humanity_back = cards_against_humanity_deck["back_card"];
+	let selected_deck;
+
+	import {createEventDispatcher} from "svelte"
+	const dispatch = createEventDispatcher();
+
+
 </script>
 <div class="deckview" style="width:100p">
 	<div class="deck-grid">
-		<div class="placeholder-wrapper" on:click={() => alert('yo')}>
-			<PlaceholderCard card_obj={playing_card_back} />
+		<div class="placeholder-wrapper">
+			<div on:click={() => alert("yo")} >
+				<PlaceholderCard card_obj={playing_card_back} />
+			</div>
 			<div>
 				<h3 class="name">
 					{playing_card_deck["display-properties"]["name"]}
