@@ -19,4 +19,8 @@
 		font-size: 3em;
 		font-weight: bold;
 	}
+	h2 {
+		font-size: 2em;
+		font-weight: bold;
+	}
 </style>
