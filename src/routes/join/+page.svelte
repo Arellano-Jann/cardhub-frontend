@@ -59,7 +59,7 @@
                                 autocomplete="display-name"
                                 placeholder="Enter Display Name"
                                 required
-                                class="appearance-none block w-full px-3 py-2 border border-gray-300 roundedd shadow-sm placeholder-gra-my-400 focus:outline-none focus:ring-black focus:border-black sm:text-sm text-black rounded-lg shadow-sm focus:outline-none focus:border-red-300 focus:ring focus:ring-red-200"
+                                class="appearance-none num block w-full px-3 py-2 border border-gray-300 roundedd shadow-sm placeholder-gra-my-400 focus:outline-none focus:ring-black focus:border-black sm:text-sm text-black rounded-lg shadow-sm focus:outline-none focus:border-red-300 focus:ring focus:ring-red-200"
                             />
                         </div>
                     </div>
@@ -137,7 +137,7 @@
         align-self: center;
         align-content: center;
         background-color: #1e1e1e;
-    }
+    }   
 
     .num {
         text-align: center;
