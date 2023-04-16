@@ -1,12 +1,12 @@
 <script>
-  import Navbar from "../../lib/components/Navbar.svelte";
-  import logo from "../../lib/assets/card_hub_logo.svg";
+  // import Navbar from "../../lib/components/Navbar.svelte";
+  // import logo from "../../lib/assets/card_hub_logo.svg";
   // import "@fontsource/open-sans";
 </script>
 
-<Navbar />
+
 <main>
-  <img src={logo} alt="Card Hub Logo" width="200" />
+  <!-- <img src={logo} alt="Card Hub Logo" width="200" /> -->
 
   <h1>Card Hub</h1>
   <!-- <p>Home page content</p> -->
@@ -60,7 +60,7 @@
 <style>
   main {
     text-align: center;
-    background-color: rgb(45, 44, 59); /* padding: 1em; */
+    /* background-color: rgb(45, 44, 59); padding: 1em; */
     /* max-width: 240px; */
     /* margin: 0 auto; */
   }

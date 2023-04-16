@@ -1,27 +1,10 @@
-<!-- <script>
-    import { Swiper, SwiperSlide } from "swiper/svelte";
-    import 'swiper/css';
-</script> -->
-
-<!-- <script>
-  // core version pagination modules:
-    import Swiper, { Pagination, EffectCards } from 'swiper';
-    // import Swiper and modules styles
-    import 'swiper/css';
-    import 'swiper/css/';
-    import 'swiper/css/pagination';
-    import 'swiper/css/effectcards';
-
-    // init Swiper:
-    const swiper = new Swiper('.swiper', {
-    // configure Swiper to use modules
-    modules: [Pagination, EffectCards],
-    });
-</script> -->
-
 <script>
     import { register } from 'swiper/element/bundle';
     import Swiper, { Pagination, EffectCards } from 'swiper';
+    import 'swiper/css';
+    import 'swiper/css/navigation';
+    import 'swiper/css/pagination';
+    import Card from "./Card.svelte"; 
   
     register();
   
@@ -44,14 +27,6 @@
     };
   </script>
 
-<!-- <Swiper
-    modules={[EffectCards, Pagination]}
-    spaceBetween={50}
-    slidesPerView={3}
-    on:slideChange={() => console.log('slide change')}
-    on:swiper={(e) => console.log(e.detail[0])}
-    > -->
-
 <swiper-container
     bind:this={swiperEl}
     slides-per-view={2}
@@ -64,9 +39,13 @@
     on:slidechange={onSlideChange}
     modules={[EffectCards, Pagination]}
   >
-    <swiper-slide>Slide 1</swiper-slide>
-    <swiper-slide>Slide 2</swiper-slide>
-    <swiper-slide>Slide 3</swiper-slide>
+  <div>
+      <swiper-slide> <Card/> </swiper-slide>
+      <swiper-slide> <Card/> </swiper-slide>
+      <swiper-slide> <Card/> </swiper-slide>
+  </div>
+  
+
 </swiper-container>
 
 <button on:click={handleNext}>Next</button>
