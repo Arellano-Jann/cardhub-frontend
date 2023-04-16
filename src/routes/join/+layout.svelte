@@ -4,10 +4,10 @@
 
 <style>
     .center-page-layout {
-        max-width: 600px;
+        max-width: 400px;
         /* max-height: 0cqmax; */
         margin: auto;
-        background-color: #575757;
+        background-color: #1e1e1e;
         
     }
 </style>

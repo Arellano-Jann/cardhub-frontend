@@ -22,11 +22,55 @@
 <main> 
     <div style="text-align: center;">
 
-        <img src={logo} alt="Card Hub Logo" style="display:inline" width="500"/>
+        <img src={logo} alt="Card Hub Logo" style="display:inline" width="200"/>
         
     </div>
-    
-    <form method="POST">
+    <div class="mt-8 sm:mx-auto sm:w-full sm:mas-w-md width:200">
+        <div class="bg-white py-8 px-6 shadow rounded-lg sm:px-10">
+            <form class="mb-0 space-y-6" action="#" method="POST">
+                <div>
+                    <label for="room-num" class="block text-sm font-medium font-medium text-gray-700">
+                        Room Number
+                    </label>
+                    <div class="mt-1">
+                        <input
+                            id="room-num"
+                            name="room-num"
+                            type="text"
+                            autocomplete="room-num"
+                            required
+                            class="appearance-none block w-full px-3 py-2 border border-gray-300 roundedd shadow-sm placeholder-gra-my-400 focus:outline-none focus:ring-black focus:border-black sm:text-sm text-black rounded-lg shadow-sm focus:outline-none focus:border-red-300 focus:ring focus:ring-red-200"
+                        />
+                    </div>
+                </div>
+
+                <div> 
+                    <label for="display-name" class="block text-sm font-medium font-medium text-gray-700">
+                        Display Name
+                    </label>
+                    <div class="mt-1">
+                        <input
+                            id="display-name"
+                            name="display-name"
+                            type="text"
+                            autocomplete="display-name"
+                            required
+                            class="appearance-none block w-full px-3 py-2 border border-gray-300 roundedd shadow-sm placeholder-gra-my-400 focus:outline-none focus:ring-black focus:border-black sm:text-sm text-black rounded-lg shadow-sm focus:outline-none focus:border-red-300 focus:ring focus:ring-red-200"
+                        />
+                    </div>
+                </div>
+
+                <div class="flex flex-row-reverse">
+                    <button
+                      class="w-full justify-center py-2 px-4 border-transparent rounded-md shadown-sm test-sm font-medium text-black bg-red-400 hover:bg-red-500 hover:text-white py-2 px-5 border-2 border-black rounded-lg"
+                      >Join</button>
+                  </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- <form method="POST">
         <div class="flex justify-between py-2">
           <label for="room-num"> Join Room </label>
           <input
@@ -46,7 +90,7 @@
             class="hover:bg-black hover:text-white py-2 px-5 border-2 border-white text-white"
             >Join</button>
         </div>
-      </form>
+      </form> -->
     <!-- <div> -->
     <!-- <h1>Lobbies</h1>
     {#if dummyLobbies.length == 0}
@@ -86,12 +130,11 @@
         align-items: center;
         align-self: center;
         align-content: center;
+        background-color: #1e1e1e;
     }
+
     form{
         align-items: center;
     }
 
-    /* h1{
-        text-decoration: left;
-    } */
 </style>
