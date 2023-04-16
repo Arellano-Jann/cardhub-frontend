@@ -1,0 +1,48 @@
+[debug] [2023-04-16T02:28:07.964Z] ----------------------------------------------------------------------
+[debug] [2023-04-16T02:28:07.965Z] Command:       /home/jannarellano/.nvm/versions/node/v18.15.0/bin/node /home/jannarellano/.nvm/versions/node/v18.15.0/bin/firebase deploy
+[debug] [2023-04-16T02:28:07.966Z] CLI Version:   11.27.0
+[debug] [2023-04-16T02:28:07.966Z] Platform:      linux
+[debug] [2023-04-16T02:28:07.966Z] Node Version:  v18.15.0
+[debug] [2023-04-16T02:28:07.967Z] Time:          Sat Apr 15 2023 19:28:07 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-04-16T02:28:07.967Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-16T02:28:08.039Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-16T02:28:08.040Z] > authorizing via signed-in user (cardhubdevteam@gmail.com)
+[debug] [2023-04-16T02:28:08.040Z] [iam] checking project cardhub-backend for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-04-16T02:28:08.041Z] > refreshing access token with scopes: []
+[debug] [2023-04-16T02:28:08.043Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-16T02:28:08.043Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-16T02:30:21.550Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-04-16T02:30:21.551Z] > refreshing access token with scopes: []
+[debug] [2023-04-16T02:30:21.552Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-16T02:30:21.552Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-16T02:30:21.723Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-04-16T02:30:21.724Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-16T02:30:21.742Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cardhub-backend [none]
+[debug] [2023-04-16T02:30:51.785Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/cardhub-backend
+[debug] [2023-04-16T02:30:51.890Z] FirebaseError: Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/cardhub-backend
+    at RetryOperation._fn (/home/jannarellano/.nvm/versions/node/v18.15.0/lib/node_modules/firebase-tools/lib/apiv2.js:238:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project cardhub-backend. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-04-16T02:52:52.788Z] ----------------------------------------------------------------------
+[debug] [2023-04-16T02:52:52.790Z] Command:       /home/jannarellano/.nvm/versions/node/v18.15.0/bin/node /home/jannarellano/cardhub-fullstack/cardhub-frontend/node_modules/firebase-tools/lib/bin/firebase.js deploy
+[debug] [2023-04-16T02:52:52.791Z] CLI Version:   9.5.0
+[debug] [2023-04-16T02:52:52.791Z] Platform:      linux
+[debug] [2023-04-16T02:52:52.792Z] Node Version:  v18.15.0
+[debug] [2023-04-16T02:52:52.792Z] Time:          Sat Apr 15 2023 19:52:52 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-04-16T02:52:52.792Z] ----------------------------------------------------------------------
+[debug] [2023-04-16T02:52:52.792Z] 
+[debug] [2023-04-16T02:52:52.798Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-16T02:52:52.798Z] > authorizing via signed-in user
+[debug] [2023-04-16T02:52:52.799Z] [iam] checking project cardhub-backend for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-04-16T02:52:52.801Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2023-04-16T02:52:52.801Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2023-04-16T02:55:06.322Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-04-16T02:55:06.325Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cardhub-backend [none]
+[debug] [2023-04-16T02:55:36.373Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/cardhub-backend
