@@ -41,5 +41,4 @@ npm run build
 # README - CardHub
 
 ## Developer file notes
-lyssie-test-uno.json:
-`card-id`: specific to each card.
+supported card types: cah, playing cards (52 cards). waiting on assets to finalize. might modify json structure, if so then placeholder cards will need to be modified.

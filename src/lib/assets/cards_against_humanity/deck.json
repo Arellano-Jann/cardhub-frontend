@@ -1,0 +1,65 @@
+{
+    "deck_type": "cards_against_humanity",
+    "display-properties": {
+        "name": "Cards Against Humanity",
+        "description": "A popular text-based card game consisting of prompt and answer cards."
+    },
+    "back_card": {
+        "card": {
+            "template": "full-image",
+            "properties": {
+                "image": "src/lib/assets/cards_against_humanity/backs/answer.svg"
+            },
+            "dimensions": [127, 176]
+        }
+    },
+    "cards-quantities": [
+        {
+            "quantity": 1,
+            "card": {
+                "template": "cards_against_humanity",
+                "card_type": "question",
+                "properties": {
+                    "text": "TSA guidelines now prohibit _________ on airplanes."
+                },
+                "dimensions": [127, 176]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "cards_against_humanity",
+                "card_type": "question",
+                "properties": {
+                    "text": "What's my secret power?"
+                
+                },
+                "dimensions": [127, 176]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "cards_against_humanity",
+                "card_type": "answer",
+                "properties": {
+                    "text": "COVID-19."
+                }
+                ,
+                "dimensions": [127, 176]
+            }
+        },
+        {
+            "quantity": 2,
+            "card": {
+                "template": "cards_against_humanity",
+                "card_type": "answer",
+                "properties": {
+                    "text": "Doing crimes."
+                },
+                "dimensions": [127, 176]
+
+            }
+        }
+    ]
+}

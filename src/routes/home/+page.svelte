@@ -1,6 +1,8 @@
 <script>
-	// import logo from "../../lib/assets/card_hub_logo.svg";
-	function moveJoin(){
+  // import Navbar from "../../lib/components/Navbar.svelte";
+  // import logo from "../../lib/assets/card_hub_logo.svg";
+  // import "@fontsource/open-sans";
+  function moveJoin(){
     window.location.href = "/join";
   }
 
@@ -9,16 +11,11 @@
   }
 </script>
 
-<!-- <a href="/home">g</a> -->
-<!-- <div>
-	<div style="text-align: center;">
 
-		<img src={logo} alt="Card Hub Logo" style="display:inline" width="200"/>
-		
-	</div>
-</div> -->
-<main>	
-	<div class="flex flex-col items-center gap-5"> 
+<main>
+  <!-- <img src={logo} alt="Card Hub Logo" width="200" /> -->
+  
+  <div class="flex flex-col items-center gap-5"> 
 		<h1>Welcome to Card Hub!</h1>
 		<div class="flex flex-col items-center gap-5">
 			<button on:click={moveHost}
@@ -33,22 +30,29 @@
 	</div>
 
 </main>
+<!--<Navbar />-->
 
+<!-- <nav>
+  <a href = "/">Home</a>
+  <a href = "/about">About</a>
+</nav> -->
+
+<!-- <style>
+</style> -->
 
 <style>
-  
-	h1 {
-	  color: #ffffff;
-	  font-size: 4em;
-	  font-weight: 100;
-	  text-align: center;
-	}
+  main {
+    text-align: center;
+    /* background-color: rgb(45, 44, 59); padding: 1em; */
+    /* max-width: 240px; */
+    /* margin: 0 auto; */
+  }
 
-	main {
-		/* display: flex; */
-		justify-content: center;
-		align-items: center;
-	}
-  
-  
-  </style>
+  h1 {
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 100;
+  }
+
+
+</style>
