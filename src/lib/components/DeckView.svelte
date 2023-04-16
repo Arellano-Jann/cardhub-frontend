@@ -9,8 +9,10 @@
 </script>
 <div class="deckview" style="width:100p">
 	<div class="deck-grid">
-		<div class="placeholder-wrapper" on:click={() => alert('yo')}>
-			<PlaceholderCard card_obj={playing_card_back} />
+		<div class="placeholder-wrapper">
+			<a href="/play/1">
+				<PlaceholderCard card_obj={playing_card_back} />
+			</a>
 			<div>
 				<h3 class="name">
 					{playing_card_deck["display-properties"]["name"]}
@@ -21,7 +23,9 @@
 			</div>
 		</div>
 		<div class="placeholder-wrapper">
-			<PlaceholderCard card_obj={cards_against_humanity_back} />
+			<a href="/play/1">
+				<PlaceholderCard card_obj={cards_against_humanity_back} />
+			</a>
 			<h3 class="name">
 				{cards_against_humanity_deck["display-properties"]["name"]}
 			</h3>
