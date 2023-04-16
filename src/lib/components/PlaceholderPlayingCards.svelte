@@ -8,7 +8,7 @@
 >
 	<div class="col"> <!-- left stuff -->
 		<div class="right-side-up">
-			<p class="corner-val col">
+			<p class="corner-val col" style="color: {card_obj["card"]["properties"]["color-hex"]}">
 				{card_obj["card"]["properties"]["text"]}
 			</p>
 			<img height="10px" width="1000px" preserveAspectRatio="xMinYMin" src={card_obj["card"]["properties"]["small_image"]} alt="small" >
@@ -20,7 +20,7 @@
 	</div>
 	<div class="right-col col"> <!-- right stuff -->
 		<div class="upside-down">
-			<p class="corner-val col">
+			<p class="corner-val col" style="color: {card_obj["card"]["properties"]["color-hex"]}">
 				{card_obj["card"]["properties"]["text"]}
 			</p>
 			<img src={card_obj["card"]["properties"]["small_image"]} alt="small">

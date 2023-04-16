@@ -206,6 +206,9 @@
                 "properties": {
                     "text": "A",
                     "color": "red",
+                    "color-hex": "#D60E26",
+                    "color-hex": "#D60E26",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -220,6 +223,8 @@
                 "properties": {
                     "text": "2",
                     "color": "red",
+                    "color-hex": "#D60E26",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -234,6 +239,7 @@
                 "properties": {
                     "text": "3",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -248,6 +254,7 @@
                 "properties": {
                     "text": "4",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -262,6 +269,7 @@
                 "properties": {
                     "text": "5",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -276,6 +284,7 @@
                 "properties": {
                     "text": "6",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -290,6 +299,7 @@
                 "properties": {
                     "text": "7",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -304,6 +314,7 @@
                 "properties": {
                     "text": "8",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -318,6 +329,7 @@
                 "properties": {
                     "text": "9",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -332,6 +344,7 @@
                 "properties": {
                     "text": "10",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -346,6 +359,7 @@
                 "properties": {
                     "text": "J",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -360,6 +374,7 @@
                 "properties": {
                     "text": "Q",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -374,6 +389,7 @@
                 "properties": {
                     "text": "K",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -388,6 +404,7 @@
                 "properties": {
                     "text": "Q",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -403,6 +420,7 @@
                 "properties": {
                     "text": "K",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
                     "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
@@ -601,6 +619,7 @@
                 "properties": {
                     "text": "A",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },
@@ -615,6 +634,7 @@
                 "properties": {
                     "text": "2",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },
@@ -629,6 +649,7 @@
                 "properties": {
                     "text": "3",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },
@@ -643,6 +664,7 @@
                 "properties": {
                     "text": "4",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },
@@ -657,6 +679,7 @@
                 "properties": {
                     "text": "5",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },
@@ -671,6 +694,7 @@
                 "properties": {
                     "text": "6",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },
@@ -685,6 +709,7 @@
                 "properties": {
                     "text": "7",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },
@@ -699,6 +724,7 @@
                 "properties": {
                     "text": "8",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },
@@ -713,6 +739,7 @@
                 "properties": {
                     "text": "9",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },
@@ -727,6 +754,7 @@
                 "properties": {
                     "text": "10",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },
@@ -741,6 +769,7 @@
                 "properties": {
                     "text": "J",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },
@@ -755,6 +784,7 @@
                 "properties": {
                     "text": "Q",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },
@@ -769,6 +799,7 @@
                 "properties": {
                     "text": "K",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },
@@ -783,6 +814,7 @@
                 "properties": {
                     "text": "Q",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },
@@ -798,6 +830,7 @@
                 "properties": {
                     "text": "K",
                     "color": "red",
+                    "color-hex": "#D60E26",
                     "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
                     "image": "src/lib/assets/playing_cards/suits/diamond.svg"
                 },

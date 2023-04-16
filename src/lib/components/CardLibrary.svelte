@@ -1,7 +1,7 @@
 <script>
     import Card from "./Card.svelte";
     import PlaceholderCard from "./PlaceholderCard.svelte";
-    export let isListview = false;
+    //export let isListview = false;
     // dummyCards actually dummyDeck
     export let deck_obj = [
         {
@@ -17,39 +17,41 @@
             <!--Toggle View
         </button>
     </div>-->
-    {#if isListview}
-        <div class="flex flex-col">
-            {#each deck_obj["cards-quantities"] as card}
+    <!--{#if isListview}-->
+        <!--<div class="flex flex-col">
+            {#each deck_obj["cards-quantities"] as card}-->
                 <!-- add dynamic route later -->
-                <a href="google.com">
+                <!--<a href="google.com">-->
                     <!--<div
                         class="border-black border-2 p-2 m-2
             flex flex-row justify-between align-middle"
                     >
                     
                     </div>-->
-                    <PlaceholderCard card_obj={card} />
-                </a>
-            {/each}
-        </div>
-    {:else}
-        <div class="flex width">
+                    <!--<PlaceholderCard card_obj={card} />-->
+                <!--</a>-->
+            <!--{/each}-->
+        <!--</div>-->
+    <!--{:else}-->
+        <div class="flex width" style="display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill, 140px);">
             {#each deck_obj["cards-quantities"] as card}
                 <div class="relative flex-auto">
-                    <div
+                    <!--<div
                         class="absolute bg-red-500 text-white rounded-full p-2 text-sm h-9 w-9 text-center"
                         style="
                             right:5px;
                             top: -18px"
                     >
                         <p>{card.quantity}</p>
-                    </div>
+                    </div>-->
                     <!--<Card />-->
                     <PlaceholderCard card_obj={card} />
                 </div>
             {/each}
         </div>
-    {/if}
+    <!--{/if}-->
 </div>
 
 <style>
