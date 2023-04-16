@@ -1,26 +1,26 @@
 <script>
-    export let dummyLobbies = [
-        {
-            name: "gasdgasdg",
-        },
-        {
-            name: "gasdgasdg",
-        },
-        {
-            name: "gasdgasdg",
-        },
-        {
-            name: "gasdgasdg",
-        },
-        {
-            name: "gasdgasdg",
-        },
-    ];
+    // export let dummyLobbies = [
+    //     {
+    //         name: "gasdgasdg",
+    //     },
+    //     {
+    //         name: "gasdgasdg",
+    //     },
+    //     {
+    //         name: "gasdgasdg",
+    //     },
+    //     {
+    //         name: "gasdgasdg",
+    //     },
+    //     {
+    //         name: "gasdgasdg",
+    //     },
+    // ];
 </script>
 
 <main> 
     <!-- <div> -->
-    <h1>Lobbies</h1>
+    <!-- <h1>Lobbies</h1>
     {#if dummyLobbies.length == 0}
         <div class="grid grid-cols-3 grid-rows-3">
             <div class="row-start-2 col-start-2 text-center">
@@ -49,14 +49,14 @@
             </div>
         </div>
     {/if}
-    <!-- </div> -->
+    </div> -->
 </main>
 
-<style>
+<!-- <style>
     main{
         text-align: center;
     }
     h1{
         text-decoration: left;
     }
-</style>
+</style> -->
