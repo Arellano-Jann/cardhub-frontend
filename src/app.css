@@ -8,9 +8,10 @@
     --grey: #4A483E;
     --light-grey: #B8BFA8;
     --white: #fff;
+    --global-bg-color: #373737;
 }
 
 html {
-    background-color: var(--black);
+    background-color: var(--global-bg-color);
     color: var(--white);
 }
