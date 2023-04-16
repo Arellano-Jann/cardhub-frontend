@@ -18,17 +18,19 @@
     ];
 </script>
 
-<div>
+<main> 
+    <!-- <div> -->
+    <h1>Lobbies</h1>
     {#if dummyLobbies.length == 0}
         <div class="grid grid-cols-3 grid-rows-3">
             <div class="row-start-2 col-start-2 text-center">
-                <h1>No Lobbies available :(</h1>
+                <h1>No Lobbies available :</h1>
             </div>
         </div>
     {:else}
         <div class="max-w-lg mx-auto">
-            <div class="p-2">
-                <p>Lobbies</p>
+            <div>
+                <p>Lobby Name</p>
             </div>
             <div class="border-black border-2 p-5">
                 {#each dummyLobbies as lobby}
@@ -47,4 +49,14 @@
             </div>
         </div>
     {/if}
-</div>
+    <!-- </div> -->
+</main>
+
+<style>
+    main{
+        text-align: center;
+    }
+    h1{
+        text-decoration: left;
+    }
+</style>
