@@ -16,7 +16,7 @@
     //         name: "gasdgasdg",
     //     },
     // ];
-    import logo from "../../lib/assets/card_hub_logo.svg";
+    import logo from "$/lib/assets/card_hub_logo.svg";
     function moveRoom(){
         var storeRoom = document.getElementById("room-num").value;
         var storeName = document.getElementById("display-name").value;

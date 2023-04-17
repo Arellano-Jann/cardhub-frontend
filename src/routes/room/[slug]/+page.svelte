@@ -1,7 +1,7 @@
 <script>
 	// this displays a lobby of all the players in a specific room
 	// room/?room=room_num
-	import logo from "../../lib/assets/card_hub_logo.svg";
+	import logo from "$/lib/assets/card_hub_logo.svg";
 
 </script>
 

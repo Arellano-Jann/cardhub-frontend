@@ -1,6 +1,6 @@
 <script>
-  // import Navbar from "../../lib/components/Navbar.svelte";
-  // import logo from "../../lib/assets/card_hub_logo.svg";
+  // import Navbar from "$/lib/components/Navbar.svelte";
+  // import logo from "$/lib/assets/card_hub_logo.svg";
   // import "@fontsource/open-sans";
   function moveJoin(){
     window.location.href = "/join";
