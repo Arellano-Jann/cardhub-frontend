@@ -1,5 +1,5 @@
 <script>
-	// import logo from "../../lib/assets/card_hub_logo.svg";
+	// import logo from "$lib/assets/card_hub_logo.svg";
 	function moveJoin(){
     window.location.href = "/join";
   }

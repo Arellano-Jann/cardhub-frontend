@@ -1,8 +1,8 @@
 <script>
-    import PlaceholderCard from "../../lib/components/PlaceholderCard.svelte";
+    import PlaceholderCard from "$lib/components/PlaceholderCard.svelte";
 
 	import deck_obj from "$lib/assets/card_structure.json"
-    //import LyssieCardLibrary from "../../lib/components/CardLibrary/LyssieCardLibrary.svelte";
+    //import LyssieCardLibrary from "$lib/components/CardLibrary/LyssieCardLibrary.svelte";
 	let decks = deck_obj["decks"];
 	let cah_cards = decks[0]["cards"]; 
 	let playing_cards = decks[1]["cards"];

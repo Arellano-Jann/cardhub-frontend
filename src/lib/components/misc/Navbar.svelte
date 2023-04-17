@@ -1,9 +1,9 @@
 <script>
-    let Home = "../../home/";
-    let Host = "../../host/";
-    let Join = "../../join/";
-    let Search = "../../game/"; //temporary
-    let About = "../../about/";
+    let Home = "$lib/../routes/home/";
+    let Host = "$lib/../routes/host/";
+    let Join = "$lib/../routes/join/";
+    let Search = "$lib/../routes/game/"; //temporary
+    let About = "$lib/../routes/about/";
    
     let currentPage = Home;
     function setCurrentPage(page) {

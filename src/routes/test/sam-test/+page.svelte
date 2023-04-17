@@ -1,5 +1,5 @@
 <script>
-    import Card from "../../../lib/components/cards/Card.svelte";
+    import Card from "$lib/components/cards/Card.svelte";
     export let isListview = false;
     // dummyCards actually dummyDeck
     export let dummyCards = [
