@@ -2,7 +2,7 @@
     let Home = "../../home/";
     let Host = "../../host/";
     let Join = "../../join/";
-    let Search = "../../play/"; //temporary
+    let Search = "../../game/"; //temporary
     let About = "../../about/";
    
     let currentPage = Home;

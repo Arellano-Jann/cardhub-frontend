@@ -22,7 +22,7 @@
         var storeName = document.getElementById("display-name").value;
         localStorage.setItem("room-num", storeRoom);
         localStorage.setItem("display-name", storeName);
-        window.location.href = "/room1";
+        window.location.href = "/room/storeRoom";
     }
 </script>
 
