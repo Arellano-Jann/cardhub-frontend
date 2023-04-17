@@ -1,5 +1,5 @@
 <script>
-    import PlaceholderCard from "./PlaceholderCard.svelte";
+    import PlaceholderCard from "../cards/PlaceholderCard.svelte";
 	// playing cards
 	import playing_card_deck from "$lib/assets/playing_cards/deck.json"
 	let playing_card_back = playing_card_deck["back_card"];
